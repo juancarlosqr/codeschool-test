@@ -2,3 +2,14 @@
 .ember-application {
     margin: 20px;
 }
+
+nav ul {
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-left: 15px; 
+}
+nav li:first-child {
+	margin-left: 0; 
+}

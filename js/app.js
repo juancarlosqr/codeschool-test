@@ -2,7 +2,8 @@ App = Ember.Application.create();
 
 // Router
 App.Router.map(function() {
-  // put your routes here
+  this.route('index', {path: '/'});
+  this.route('about', {path: 'about-us'});
 });
 
 App.IndexRoute = Ember.Route.extend({
