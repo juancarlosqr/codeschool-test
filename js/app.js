@@ -1,11 +1,12 @@
 App = Ember.Application.create();
 
+// Router
 App.Router.map(function() {
   // put your routes here
 });
 
 App.IndexRoute = Ember.Route.extend({
   model: function() {
-    return ['red', 'yellow', 'blue', 'orange'];
+    return ['red', 'yellow', 'blue', 'orange', 'green'];
   }
 });
