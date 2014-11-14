@@ -18,3 +18,5 @@ App.CrewRoute = Ember.Route.extend({
 		return this.store.find('person');
 	}
 });
+
+App.AboutRoute = Ember.Route.extend({});
