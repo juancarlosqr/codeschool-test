@@ -41,6 +41,6 @@ App.Person.FIXTURES = [
         firstName: 'Ryan',
         lastName: 'Dale',
         email: 'ryan.dale@emberjscss.com',
-        username: 'ryan.dale'
+        username: 'ryandale'
     }
 ];
